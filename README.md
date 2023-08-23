@@ -1,3 +1,9 @@
+# Prediction of Stock Market
+
+* ## Python
+
+* ### Project Description
+
 I have been granted access to historical stock market information and my objective involves utilizing this data to train and evaluate different machine learning models designed for predicting stock prices. To achieve this, I've been provided with three distinct datasets. These datasets consist of one training set and two testing sets, which can be loaded into the program using the pickle.load() function.
 
 The training set is composed of a collection of Pandas data frames. Each data frame corresponds to the historical trading data of an individual stock. In total, the dataset encompasses 2000 unique stocks. Each of these Pandas data frames contains a series of trading records that span consecutive time points. It's important to note that all numerical values within the dataset have undergone a normalization process. (fill the missing data and remove noisy data)
@@ -16,3 +22,6 @@ Utilized the methods of blending, Voting, and Adaboost to boost model's performa
 
 Task6
 Chose the best model from task5, and evaluated the performance of my final model on the three testing sets: Vpting, Blending, and Adaboost
+
+
+
